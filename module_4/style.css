@@ -1,0 +1,21 @@
+.core_div{
+    border: dashed green;
+    background: lightgray;
+    border-radius: 15px;
+    height: 200px;
+    margin: 40px auto;
+    width: 400px;
+}
+.inner_div{
+    background: white;
+    border: dashed blue;
+    height: 300px;
+    margin: 80px auto;
+    width: 600px;
+}
+.outer_div{
+    background: #888888;
+    border: 1px solid orange;
+    width: 700px;
+    height: 500px;
+}
