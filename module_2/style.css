@@ -1,0 +1,31 @@
+@font-face{
+    font-family: 'opensans';
+    src: url('fonts/OpenSans-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.body{
+    font-family: 'opensans', sans-serif;
+    /* text-align: center; */
+}
+.black_line_div{
+    width:1px;
+    height:50px;
+    background:black
+}
+.black_line_para{
+    font-size:14px;
+    margin-left:10px;
+    margin-top:5px;
+    width: 560px;
+}
+
+.main_div{
+  margin: 0px 00px 0px 460px;
+  width: 560px;
+}
+
+.title{
+    font-size: 40px;
+}
