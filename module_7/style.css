@@ -1,0 +1,38 @@
+.progress_bar div:first-child{
+    background: orange;
+    height: 5px;
+    width: 33%;
+}
+.progress_bar div:first-child > ul{
+    list-style-type: none;
+}
+.progress_bar div:first-child > ul li{
+    float: left;
+}
+.progress_bar div:first-child > ul li+li{
+    padding-left:55px;
+}
+.progress_bar div:first-child > ul > li > div{
+    background: orange;
+    border-radius: 2rem;
+    border: 2px solid orange;
+    height: 1rem;
+    margin-top: -10px;
+    width: 1rem;
+}
+.progress_list{
+    margin-top:20px; 
+}
+.progress_list > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.progress_list > ul  li {
+    display: block;
+    float: left;
+}
+
+.progress_bar li+li{
+    margin-left: 120px;
+}

@@ -1,0 +1,30 @@
+.vertical_progress_bar {
+    margin-top: 90px;
+}
+
+.vertical_progress_bar > ul{
+    list-style-type: none;
+}
+.vertical_progress_bar > ul > li{
+    margin: 20px;
+}
+
+.vertical_progress_bar > ul > li > span > div{
+    background: green;
+    border-radius: 2rem;
+    border: 2px solid gray;
+    height: 1rem;
+    margin-top: -10px;
+    margin-left: 2px;
+    text-align: center;
+    width: 1rem;
+}
+
+.vertical_line_progress {
+    border-left: 3px solid gray;
+    height: 135px;
+    margin-top:-158px;
+    margin-left: 70px;
+    position: absolute;
+    z-index: -1;
+}
